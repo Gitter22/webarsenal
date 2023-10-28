@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebarsenal=self.webpackChunkwebarsenal||[]).push([[3178],{239:e=>{e.exports=JSON.parse('{"permalink":"/webarsenal/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
