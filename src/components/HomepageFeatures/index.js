@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Your Gateway to Web Expertise. WebArsenal provides you the answer to the question you are not able to frame
+        Your Source for Web-Based Tools and Technologies. WebArsenal provides you the answer to the question you are not able to frame
       </>
     ),
   },

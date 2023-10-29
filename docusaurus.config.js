@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'WebArsenal',
-  tagline: 'Explore the Web Arsenal: Your Source for Web-Based Tools and Technologies',
+  tagline: 'Discover Endless Web Possibilities',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,12 +64,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/webarsenal-social-card.jpg',
       navbar: {
         title: 'WebArsenal',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/webarsenal-icon.svg',
+          src: 'img/webarsenal.svg',
         },
         items: [
           {
