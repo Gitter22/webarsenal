@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'WebArsenal',
+  tagline: 'Explore the Web Arsenal: Your Source for Web-Based Tools and Technologies',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://Gitter22.github.io/webarsenal/',
+  url: 'https://gitter22.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/webarsenal/',
@@ -66,17 +66,17 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'WebArsenal',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/webarsenal-icon.svg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Topics',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
@@ -90,10 +90,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Discover',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Topics',
                 to: '/docs/intro',
               },
             ],
@@ -129,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Web Arsenal - Your Guide to Web Tools and Tech | Copyright © ${new Date().getFullYear()}`,
       },
       prism: {
         theme: lightCodeTheme,

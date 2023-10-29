@@ -4,38 +4,35 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Discover Endless Web Possibilities',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Your Gateway to Web Expertise. WebArsenal provides you the answer to the question you are not able to frame
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Interactive Demos',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Experience Learning, Not Just Reading. Code snippets and Demos are provided wherever possible
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Unlock a Treasure Trove of Web Wisdom.',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Explore Our Handpicked Links to Master Any Web Technology or Tool
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
